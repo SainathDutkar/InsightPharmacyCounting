@@ -132,7 +132,7 @@ class FileReader {
 			for (int i = 1; i < uniqueDrugList.length; i++) {
 				if(uniqueDrugList[i][1]!=null)
 				{
-					String content = uniqueDrugList[i][0]+" ,  "+uniqueDrugList[i][1]+" , "+uniqueDrugList[i][2];
+					String content = uniqueDrugList[i][0]+","+uniqueDrugList[i][1]+","+uniqueDrugList[i][2];
 				bw.write(content);
 				bw.newLine();
 			
