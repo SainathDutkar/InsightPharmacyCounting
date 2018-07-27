@@ -129,7 +129,7 @@ class FileReader {
 			bw.write("drug_name,num_prescriber,total_cost");
 			bw.newLine();
 			
-			for (int i = 1; i < uniqueDrugList.length; i++) {
+			for (int i = 0; i < uniqueDrugList.length; i++) {
 				if(uniqueDrugList[i][1]!=null)
 				{
 					String content = uniqueDrugList[i][0]+","+uniqueDrugList[i][1]+","+uniqueDrugList[i][2];
